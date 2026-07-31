@@ -1,0 +1,25 @@
+{
+  "_comment": "แก้ไฟล์นี้เองรายสัปดาห์ตามที่ดูกราฟจริง — ระบบยังตรวจ BOS/CHoCH/retest อัตโนมัติไม่ได้ในเวอร์ชันนี้ ค่าที่ใส่ได้: 'intact' | 'breakdown' (สำหรับหุ้นในพอร์ต), 'none' | 'awaiting_retest' | 'retest_confirmed' (สำหรับ watchlist)",
+  "portfolio": {
+    "PTT": "intact",
+    "AOT": "intact",
+    "DELTA": "intact",
+    "CPALL": "intact",
+    "NVDA": "intact"
+  },
+  "watchlist": {
+    "MU": "retest_confirmed",
+    "PYPL": "none",
+    "INTC": "none",
+    "BDMS": "none",
+    "SCB": "none",
+    "TSLA": "none",
+    "BABA": "awaiting_retest",
+    "ADVANC": "none",
+    "META": "none"
+  },
+  "reviewFlags": {
+    "_comment": "ใส่ true สำหรับหุ้นในพอร์ตที่ถือมาเกิน 2-3 ไตรมาสแล้วยังไม่ถึงเป้า (time-based review ตามข้อ 7)",
+    "AOT": true
+  }
+}

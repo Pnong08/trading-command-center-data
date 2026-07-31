@@ -1,0 +1,19 @@
+{
+  "stocks": [
+    { "id": "PTT", "symbol": "PTT.BK", "name": "PTT PCL", "market": "SET", "currency": "\u0e3f", "sector": "Energy", "inPortfolio": true, "entryPrice": 36.0 },
+    { "id": "AOT", "symbol": "AOT.BK", "name": "Airports of Thailand", "market": "SET", "currency": "\u0e3f", "sector": "Transport", "inPortfolio": true, "entryPrice": 58.0 },
+    { "id": "DELTA", "symbol": "DELTA.BK", "name": "Delta Electronics TH", "market": "SET", "currency": "\u0e3f", "sector": "Technology", "inPortfolio": true, "entryPrice": 58.0 },
+    { "id": "CPALL", "symbol": "CPALL.BK", "name": "CP All", "market": "SET", "currency": "\u0e3f", "sector": "Consumer", "inPortfolio": true, "entryPrice": 66.0 },
+    { "id": "NVDA", "symbol": "NVDA", "name": "NVIDIA Corp", "market": "US", "currency": "$", "sector": "Technology", "inPortfolio": true, "entryPrice": 140.0 },
+
+    { "id": "MU", "symbol": "MU", "name": "Micron Technology", "market": "US", "currency": "$", "sector": "Semiconductor", "inPortfolio": false },
+    { "id": "PYPL", "symbol": "PYPL", "name": "PayPal Holdings", "market": "US", "currency": "$", "sector": "Fintech", "inPortfolio": false },
+    { "id": "INTC", "symbol": "INTC", "name": "Intel Corp", "market": "US", "currency": "$", "sector": "Semiconductor", "inPortfolio": false },
+    { "id": "BDMS", "symbol": "BDMS.BK", "name": "Bangkok Dusit Medical", "market": "SET", "currency": "\u0e3f", "sector": "Healthcare", "inPortfolio": false },
+    { "id": "SCB", "symbol": "SCB.BK", "name": "SCB X", "market": "SET", "currency": "\u0e3f", "sector": "Financials", "inPortfolio": false },
+    { "id": "TSLA", "symbol": "TSLA", "name": "Tesla Inc", "market": "US", "currency": "$", "sector": "Automotive", "inPortfolio": false },
+    { "id": "BABA", "symbol": "BABA", "name": "Alibaba Group", "market": "US", "currency": "$", "sector": "E-commerce", "inPortfolio": false },
+    { "id": "ADVANC", "symbol": "ADVANC.BK", "name": "Advanced Info Service", "market": "SET", "currency": "\u0e3f", "sector": "Telecom", "inPortfolio": false },
+    { "id": "META", "symbol": "META", "name": "Meta Platforms", "market": "US", "currency": "$", "sector": "Technology", "inPortfolio": false }
+  ]
+}
