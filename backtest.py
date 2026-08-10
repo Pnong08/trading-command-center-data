@@ -3,15 +3,20 @@ Backtest — Monthly Best-Idea DCA (Fallen Angel entry + cut-loss/take-profit)
 ตั้งแต่มกราคม 2020 ถึงปัจจุบัน บนหุ้นไทยขนาดใหญ่ ~50 ตัว (ดู backtest_universe.json)
 
 ข้อจำกัดที่ต้องอ่านก่อนเชื่อผลลัพธ์ (สำคัญมาก):
-  1. ใช้เฉพาะกฎที่อิงราคาล้วนๆ — ไม่รวม Quality Ratio Check (ชั้น 2 ของแผนจริง)
-     เพราะข้อมูล fundamental ย้อนหลังแบบ point-in-time หาฟรีไม่ได้
-  2. ไม่รวม technical timing (BOS/CHoCH) — เข้าที่ราคาปิดวันทำการแรกของเดือนเลย
-     ไม่ได้รอ retest เหมือนแผนจริง
+  1. ไม่รวม Quality Ratio Check (ชั้น 2 ของแผนจริง) เพราะข้อมูล fundamental
+     ย้อนหลังแบบ point-in-time หาฟรีไม่ได้
+  2. Technical timing (ชั้น 3) ใช้ proxy คร่าวๆ จากราคาล้วนๆ (ราคาปิด > SMA 20 วันทำการ
+     ก่อนถึงจะซื้อได้) แทน retest/BOS/CHoCH จริง ซึ่งยังไม่มีระบบตรวจจับอัตโนมัติ
   3. Universe เป็นรายชื่อหุ้นใหญ่ "ปัจจุบัน" ไม่ใช่สมาชิก SET50 ย้อนหลังจริงทุกจุดเวลา
      -> มี survivorship bias, ผลตอบแทนอาจดูดีกว่าความเป็นจริง
   4. Time-based review ในแผนจริงเป็น "ทบทวนด้วยคน" ไม่ใช่ auto-sell
      แต่ backtest ต้องมีกฎที่คำนวณได้แน่นอน จึงจำลองเป็น "ขายบังคับถ้าถือเกิน 24 เดือน"
      ซึ่งเป็นสมมติฐานง่ายเพื่อให้ backtest รันได้ ไม่ใช่กฎจริงในแผน
+  5. Sector ของแต่ละหุ้น (backtest_sectors.json) เป็นการจัดกลุ่มคร่าวๆ ด้วยความรู้ทั่วไป
+     ไม่ได้ยืนยันกับแหล่งข้อมูลทางการ ใช้เพื่อทดสอบ sector cap เท่านั้น
+  6. Position cap (20%) / sector cap (40%) บังคับเฉพาะตอนพอร์ต>=100k ตามกฎจริง ถ้าตัว
+     คะแนนสูงสุดชน cap เงินส่วนเกินไหลไปตัวถัดไปในอันดับอัตโนมัติ (แผนจริงคือ "split เฉพาะ
+     ตอนคะแนนใกล้เคียงกัน" ซึ่งเป็นดุลพินิจคน ตรงนี้ simplify เป็นกฎตายตัวแทน)
 
 สรุป: ผลลัพธ์นี้คือ "ประมาณการภายใต้เงื่อนไขที่ทำได้จริงจากข้อมูลฟรี" ไม่ใช่ผลย้อนหลังที่แม่นยำสมบูรณ์
 """
@@ -36,6 +41,22 @@ CUT_LOSS_LARGE = -0.20  # พอร์ต >= 100,000 บาท
 TAKE_PROFIT_PCT = 0.45
 FALLEN_ANGEL_THRESHOLD = -0.20
 MAX_HOLD_MONTHS = 24  # สมมติฐานสำหรับ backtest เท่านั้น (ดูหมายเหตุข้อ 4 ด้านบน)
+
+# Technical timing proxy (ชั้น 3 คร่าวๆ) — ต้องมีสัญญาณเริ่มทรงตัว/เด้งกลับก่อนซื้อ
+# แทนการซื้อทันทีที่แตะ -20% (ดูหมายเหตุข้อ 2 ด้านบน)
+TECH_STABILIZATION_WINDOW = 20  # ~1 เดือนเทรด
+
+# Diversification cap — บังคับเฉพาะตอนพอร์ต >= PORTFOLIO_TIER_THRESHOLD (ดูหมายเหตุข้อ 6)
+MAX_POSITION_PCT = 0.20
+SECTOR_CAP_PCT = 0.40
+
+
+def sma(series, as_of_date, window):
+    """Simple moving average แบบ causal (ใช้ข้อมูลถึงวันนั้นเท่านั้น)"""
+    w = series[series.index <= as_of_date].tail(window)
+    if len(w) < window:
+        return None
+    return w.mean()
 
 
 def monthly_contribution(year_index):
@@ -86,6 +107,8 @@ def first_trading_day_on_or_after(series, target_date):
 def main():
     with open("backtest_universe.json", encoding="utf-8") as f:
         tickers = json.load(f)["tickers"]
+    with open("backtest_sectors.json", encoding="utf-8") as f:
+        sector_map = json.load(f)["sectors"]
 
     prices = load_prices(tickers, START_DATE)
     if not prices:
@@ -159,21 +182,61 @@ def main():
                 continue
             pct_from_high = (price - high) / high
             if pct_from_high <= FALLEN_ANGEL_THRESHOLD:
+                ma = sma(prices[t], date, TECH_STABILIZATION_WINDOW)
+                if ma is None or price <= ma:
+                    continue  # ยังไม่มีสัญญาณทรงตัว/เด้งกลับ (technical proxy) — ยัง WATCHING ไม่ใช่ BUY
                 candidates.append((t, date, price, pct_from_high))
 
         # จัดอันดับ: ลงลึกที่สุดจาก high มาก่อน (deepest Fallen Angel = significance สูงสุด ในเชิงราคาล้วน)
         candidates.sort(key=lambda c: c[3])
 
         if candidates and cash > 0:
-            t, date, price, pct_from_high = candidates[0]
-            shares = cash / price
-            positions[t] = {"shares": shares, "entry_price": float(price), "entry_month_idx": month_idx}
-            trade_log.append({
-                "action": "BUY", "ticker": t, "date": str(date.date()),
-                "price": round(float(price), 2), "amount": round(cash, 2),
-                "pct_from_52w_high": round(pct_from_high * 100, 1),
-            })
-            cash = 0.0
+            base_portfolio_value = cash
+            sector_exposure = {}
+            for t, pos in positions.items():
+                mark_price = ref_prices[t][1] if t in ref_prices else pos["entry_price"]
+                v = pos["shares"] * mark_price
+                base_portfolio_value += v
+                sec = sector_map.get(t, "Unknown")
+                sector_exposure[sec] = sector_exposure.get(sec, 0.0) + v
+
+            cap_active = base_portfolio_value >= PORTFOLIO_TIER_THRESHOLD
+
+            if not cap_active:
+                # พอร์ตยังเล็ก — ทุ่มเงินเดือนนี้ทั้งหมดลงตัวคะแนนสูงสุดตัวเดียว (ไม่กระจายบังคับ)
+                t, date, price, pct_from_high = candidates[0]
+                shares = cash / price
+                positions[t] = {"shares": shares, "entry_price": float(price), "entry_month_idx": month_idx}
+                trade_log.append({
+                    "action": "BUY", "ticker": t, "date": str(date.date()),
+                    "price": round(float(price), 2), "amount": round(cash, 2),
+                    "pct_from_52w_high": round(pct_from_high * 100, 1),
+                    "sector": sector_map.get(t, "Unknown"),
+                })
+                cash = 0.0
+            else:
+                # พอร์ต >= 100k — บังคับ diversification cap: เงินส่วนเกินไหลไปตัวถัดไปในอันดับ
+                remaining_cash = cash
+                for t, date, price, pct_from_high in candidates:
+                    if remaining_cash <= 0:
+                        break
+                    sec = sector_map.get(t, "Unknown")
+                    room = min(remaining_cash, MAX_POSITION_PCT * base_portfolio_value)
+                    sector_room = SECTOR_CAP_PCT * base_portfolio_value - sector_exposure.get(sec, 0.0)
+                    room = min(room, max(0.0, sector_room))
+                    if room <= 1.0:  # กันเศษเงินจิ๊บจ๊อยที่ไม่มีความหมาย
+                        continue
+                    shares = room / price
+                    positions[t] = {"shares": shares, "entry_price": float(price), "entry_month_idx": month_idx}
+                    trade_log.append({
+                        "action": "BUY", "ticker": t, "date": str(date.date()),
+                        "price": round(float(price), 2), "amount": round(room, 2),
+                        "pct_from_52w_high": round(pct_from_high * 100, 1),
+                        "sector": sec,
+                    })
+                    sector_exposure[sec] = sector_exposure.get(sec, 0.0) + room
+                    remaining_cash -= room
+                cash = remaining_cash
 
     # มูลค่าสุดท้าย = เงินสด + มูลค่าตำแหน่งที่ยังถืออยู่ (ราคาล่าสุดที่มี)
     final_value = cash
@@ -204,11 +267,15 @@ def main():
         "trades": trade_log,
         "assumptions": [
             "ไม่รวม Quality Ratio Check (ชั้น 2) — ไม่มีข้อมูล fundamental ย้อนหลังฟรี",
-            "ไม่รวม technical timing (BOS/CHoCH) — เข้าราคาปิดวันทำการแรกของเดือนทันที",
+            "Technical timing (ชั้น 3) ใช้ proxy คร่าวๆ จากราคาล้วนๆ: ต้องปิด > SMA20 วันทำการ "
+            "ก่อนถึงจะนับเป็น candidate ที่ซื้อได้ แทน retest/BOS/CHoCH จริงที่ยังไม่มีระบบตรวจจับอัตโนมัติ",
             "Universe เป็นหุ้นใหญ่ปัจจุบัน ~50 ตัว ไม่ใช่สมาชิก SET50 ย้อนหลังจริง (survivorship bias)",
             "Time-based exit จำลองเป็นขายบังคับที่ 24 เดือน (แผนจริงคือทบทวนด้วยคน ไม่ auto-sell)",
             "Cut-loss แบบขั้นบันไดใช้ขอบบนสุดของแต่ละช่วง: -12% ตอนพอร์ต<100k, -20% ตอนพอร์ต>=100k "
             "(กฎจริงเป็นช่วง -10~-12% / -15~-20% ไม่ใช่ตัวเลขเดี่ยว)",
+            "Sector ต่อหุ้น (backtest_sectors.json) จัดกลุ่มคร่าวๆ ด้วยความรู้ทั่วไป ไม่ได้ยืนยันกับแหล่งข้อมูลทางการ",
+            "Position cap 20% / sector cap 40% บังคับเฉพาะตอนพอร์ต>=100k เงินส่วนเกินไหลไปตัวถัดไปในอันดับ "
+            "อัตโนมัติ (แผนจริงคือ split เฉพาะตอนคะแนนใกล้เคียงกัน ซึ่งเป็นดุลพินิจคน)",
         ],
     }
 

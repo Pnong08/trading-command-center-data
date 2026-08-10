@@ -1,0 +1,22 @@
+{
+  "_disclaimer": "จัดกลุ่ม sector คร่าวๆ ด้วยความรู้ทั่วไปเกี่ยวกับธุรกิจหลักของแต่ละบริษัท ไม่ได้ดึงจากแหล่งข้อมูล/GICS classification ที่ยืนยันได้ ใช้เพื่อทดสอบ sector cap ใน backtest เท่านั้น ถ้าจะใช้จริงควรตรวจสอบกับ SETSMART หรือแหล่งทางการก่อน",
+  "sectors": {
+    "ADVANC.BK": "Telecom", "AOT.BK": "Transport", "AWC.BK": "Property",
+    "BANPU.BK": "Energy", "BBL.BK": "Financials", "BCP.BK": "Energy",
+    "BDMS.BK": "Healthcare", "BEM.BK": "Transport", "BGRIM.BK": "Utilities",
+    "BH.BK": "Healthcare", "CBG.BK": "Consumer", "CENTEL.BK": "Consumer",
+    "COM7.BK": "Consumer", "CPALL.BK": "Consumer", "CPF.BK": "Consumer",
+    "CPN.BK": "Property", "CRC.BK": "Consumer", "DELTA.BK": "Technology",
+    "EA.BK": "Energy", "EGCO.BK": "Utilities", "GLOBAL.BK": "Consumer",
+    "GPSC.BK": "Utilities", "GULF.BK": "Utilities", "HMPRO.BK": "Consumer",
+    "INTUCH.BK": "Telecom", "IVL.BK": "Materials", "JMART.BK": "Financials",
+    "JMT.BK": "Financials", "KBANK.BK": "Financials", "KCE.BK": "Technology",
+    "KTB.BK": "Financials", "KTC.BK": "Financials", "LH.BK": "Property",
+    "MINT.BK": "Consumer", "MTC.BK": "Financials", "OR.BK": "Energy",
+    "OSP.BK": "Consumer", "PTT.BK": "Energy", "PTTEP.BK": "Energy",
+    "PTTGC.BK": "Materials", "RATCH.BK": "Utilities", "SAWAD.BK": "Financials",
+    "SCB.BK": "Financials", "SCC.BK": "Materials", "SCGP.BK": "Materials",
+    "TIDLOR.BK": "Financials", "TISCO.BK": "Financials", "TOP.BK": "Energy",
+    "TRUE.BK": "Telecom", "TU.BK": "Consumer", "WHA.BK": "Property"
+  }
+}
