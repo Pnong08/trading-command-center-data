@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-08-10T17:48:29.874491Z",
+  "generatedAt": "2026-08-10T17:51:40.936375Z",
   "period": "2020-01-01 ถึง 2026-08-10",
   "totalContributed": 2740000.0,
-  "finalValue": NaN,
-  "totalReturnPct": NaN,
-  "cagrPct": NaN,
+  "finalValue": 2364133.39,
+  "totalReturnPct": -13.7,
+  "cagrPct": -2.21,
   "cashRemaining": 0.0,
   "currentHoldings": [
     {
       "ticker": "JMT.BK",
       "shares": 3414.3176,
-      "last_price": NaN,
-      "value": NaN
+      "last_price": 12.3,
+      "value": 41996.11
     },
     {
       "ticker": "EA.BK",
-      "shares": 368222.214,
-      "last_price": NaN,
-      "value": NaN
+      "shares": 368222.2292,
+      "last_price": 3.06,
+      "value": 1126760.0
     },
     {
       "ticker": "CBG.BK",
       "shares": 751.5976,
-      "last_price": NaN,
-      "value": NaN
+      "last_price": 51.25,
+      "value": 38519.38
     },
     {
       "ticker": "MTC.BK",
-      "shares": 4513.0549,
-      "last_price": NaN,
-      "value": NaN
+      "shares": 4513.055,
+      "last_price": 35.0,
+      "value": 157956.93
     },
     {
       "ticker": "HMPRO.BK",
       "shares": 14618.7693,
-      "last_price": NaN,
-      "value": NaN
+      "last_price": 6.65,
+      "value": 97214.82
     },
     {
       "ticker": "SAWAD.BK",
-      "shares": 5164.9454,
-      "last_price": NaN,
-      "value": NaN
+      "shares": 5164.945,
+      "last_price": 25.0,
+      "value": 129123.63
     },
     {
       "ticker": "DELTA.BK",
-      "shares": 2948.7119,
-      "last_price": NaN,
-      "value": NaN
+      "shares": 2948.712,
+      "last_price": 262.0,
+      "value": 772562.54
     }
   ],
   "tradeCount": 143,
@@ -89,7 +89,7 @@
       "ticker": "AWC.BK",
       "date": "2020-07-01",
       "price": 3.61,
-      "amount": 186387.09,
+      "amount": 186387.1,
       "pct_from_52w_high": -36.5
     },
     {
@@ -121,7 +121,7 @@
       "ticker": "BCP.BK",
       "date": "2020-10-01",
       "price": 11.72,
-      "amount": 48475.71,
+      "amount": 48475.7,
       "pct_from_52w_high": -47.3
     },
     {
@@ -153,7 +153,7 @@
       "ticker": "CRC.BK",
       "date": "2021-01-04",
       "price": 26.04,
-      "amount": 98268.92,
+      "amount": 98268.9,
       "pct_from_52w_high": -26.3
     },
     {
@@ -201,7 +201,7 @@
       "ticker": "DELTA.BK",
       "date": "2021-04-01",
       "price": 31.67,
-      "amount": 84670.84,
+      "amount": 84670.85,
       "pct_from_52w_high": -56.3
     },
     {
@@ -225,7 +225,7 @@
       "ticker": "RATCH.BK",
       "date": "2021-06-01",
       "price": 36.99,
-      "amount": 180661.91,
+      "amount": 180661.9,
       "pct_from_52w_high": -22.6
     },
     {
@@ -425,7 +425,7 @@
       "ticker": "KCE.BK",
       "date": "2022-10-03",
       "price": 36.43,
-      "amount": 284757.84,
+      "amount": 284757.83,
       "pct_from_52w_high": -53.3
     },
     {
@@ -441,7 +441,7 @@
       "ticker": "MTC.BK",
       "date": "2022-11-01",
       "price": 35.28,
-      "amount": 61962.28,
+      "amount": 61962.27,
       "pct_from_52w_high": -41.7
     },
     {
@@ -465,7 +465,7 @@
       "ticker": "SAWAD.BK",
       "date": "2022-12-01",
       "price": 35.73,
-      "amount": 305679.84,
+      "amount": 305679.8,
       "pct_from_52w_high": -29.5
     },
     {
@@ -505,7 +505,7 @@
       "ticker": "JMART.BK",
       "date": "2023-03-01",
       "price": 24.77,
-      "amount": 135780.65,
+      "amount": 135780.66,
       "pct_from_52w_high": -55.6
     },
     {
@@ -569,7 +569,7 @@
       "ticker": "JMT.BK",
       "date": "2023-06-01",
       "price": 37.12,
-      "amount": 229191.34,
+      "amount": 229191.35,
       "pct_from_52w_high": -45.8
     },
     {
@@ -665,7 +665,7 @@
       "ticker": "EA.BK",
       "date": "2023-11-01",
       "price": 42.74,
-      "amount": 263713.11,
+      "amount": 263713.12,
       "pct_from_52w_high": -56.2
     },
     {
@@ -681,7 +681,7 @@
       "ticker": "JMT.BK",
       "date": "2023-12-01",
       "price": 23.32,
-      "amount": 291316.36,
+      "amount": 291316.35,
       "pct_from_52w_high": -61.6
     },
     {
@@ -713,7 +713,7 @@
       "ticker": "JMT.BK",
       "date": "2024-02-01",
       "price": 17.86,
-      "amount": 370342.91,
+      "amount": 370342.9,
       "pct_from_52w_high": -68.0
     },
     {
@@ -785,7 +785,7 @@
       "ticker": "JMT.BK",
       "date": "2024-06-04",
       "price": 12.68,
-      "amount": 481436.26,
+      "amount": 481436.29,
       "pct_from_52w_high": -70.6
     },
     {
@@ -833,7 +833,7 @@
       "ticker": "EA.BK",
       "date": "2024-09-02",
       "price": 6.3,
-      "amount": 151575.35,
+      "amount": 151575.36,
       "pct_from_52w_high": -90.2
     },
     {
@@ -849,7 +849,7 @@
       "ticker": "JMART.BK",
       "date": "2024-10-01",
       "price": 15.18,
-      "amount": 320092.06,
+      "amount": 320092.08,
       "pct_from_52w_high": -31.6
     },
     {
@@ -865,7 +865,7 @@
       "ticker": "KCE.BK",
       "date": "2024-11-01",
       "price": 32.71,
-      "amount": 118487.63,
+      "amount": 118487.62,
       "pct_from_52w_high": -35.9
     },
     {
@@ -889,7 +889,7 @@
       "ticker": "KCE.BK",
       "date": "2024-12-02",
       "price": 23.27,
-      "amount": 476118.1,
+      "amount": 476118.13,
       "pct_from_52w_high": -54.0
     },
     {
@@ -937,7 +937,7 @@
       "ticker": "EA.BK",
       "date": "2025-02-03",
       "price": 2.96,
-      "amount": 435714.33,
+      "amount": 435714.35,
       "pct_from_52w_high": -92.7
     },
     {
@@ -953,7 +953,7 @@
       "ticker": "SCGP.BK",
       "date": "2025-03-03",
       "price": 12.25,
-      "amount": 371410.94,
+      "amount": 371410.96,
       "pct_from_52w_high": -62.2
     },
     {
@@ -969,7 +969,7 @@
       "ticker": "EA.BK",
       "date": "2025-04-01",
       "price": 2.06,
-      "amount": 335233.61,
+      "amount": 335233.62,
       "pct_from_52w_high": -94.3
     },
     {
@@ -993,7 +993,7 @@
       "ticker": "GLOBAL.BK",
       "date": "2025-06-04",
       "price": 5.17,
-      "amount": 350493.3,
+      "amount": 350493.32,
       "pct_from_52w_high": -65.8
     },
     {
@@ -1009,7 +1009,7 @@
       "ticker": "JMART.BK",
       "date": "2025-07-01",
       "price": 6.19,
-      "amount": 55517.43,
+      "amount": 55517.42,
       "pct_from_52w_high": -60.8
     },
     {
@@ -1057,7 +1057,7 @@
       "ticker": "EA.BK",
       "date": "2025-10-01",
       "price": 3.34,
-      "amount": 1125327.81,
+      "amount": 1125327.86,
       "pct_from_52w_high": -64.1
     },
     {
@@ -1081,7 +1081,7 @@
       "ticker": "EA.BK",
       "date": "2025-12-01",
       "price": 2.62,
-      "amount": 964742.16,
+      "amount": 964742.2,
       "pct_from_52w_high": -59.1
     },
     {
@@ -1153,7 +1153,7 @@
       "ticker": "SAWAD.BK",
       "date": "2026-06-01",
       "price": 21.9,
-      "amount": 113112.3,
+      "amount": 113112.29,
       "pct_from_52w_high": -28.5
     },
     {
@@ -1193,7 +1193,7 @@
       "ticker": "DELTA.BK",
       "date": "2026-08-03",
       "price": 272.0,
-      "amount": 802049.63,
+      "amount": 802049.65,
       "pct_from_52w_high": -25.3
     }
   ],
