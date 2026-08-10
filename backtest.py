@@ -179,7 +179,9 @@ def main():
     final_value = cash
     holdings_detail = []
     for t, pos in positions.items():
-        last_price = float(prices[t].iloc[-1])
+        # ใช้ราคาปิดล่าสุดที่ "ไม่ใช่ NaN" — แท่งของวันปัจจุบันอาจว่างถ้าตลาดยังไม่ปิด/ข้อมูลยังไม่มา
+        valid_closes = prices[t].dropna()
+        last_price = float(valid_closes.iloc[-1])
         value = pos["shares"] * last_price
         final_value += value
         holdings_detail.append({"ticker": t, "shares": round(pos["shares"], 4),
