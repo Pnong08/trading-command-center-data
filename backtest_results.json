@@ -1,0 +1,1207 @@
+{
+  "generatedAt": "2026-08-10T17:48:29.874491Z",
+  "period": "2020-01-01 ถึง 2026-08-10",
+  "totalContributed": 2740000.0,
+  "finalValue": NaN,
+  "totalReturnPct": NaN,
+  "cagrPct": NaN,
+  "cashRemaining": 0.0,
+  "currentHoldings": [
+    {
+      "ticker": "JMT.BK",
+      "shares": 3414.3176,
+      "last_price": NaN,
+      "value": NaN
+    },
+    {
+      "ticker": "EA.BK",
+      "shares": 368222.214,
+      "last_price": NaN,
+      "value": NaN
+    },
+    {
+      "ticker": "CBG.BK",
+      "shares": 751.5976,
+      "last_price": NaN,
+      "value": NaN
+    },
+    {
+      "ticker": "MTC.BK",
+      "shares": 4513.0549,
+      "last_price": NaN,
+      "value": NaN
+    },
+    {
+      "ticker": "HMPRO.BK",
+      "shares": 14618.7693,
+      "last_price": NaN,
+      "value": NaN
+    },
+    {
+      "ticker": "SAWAD.BK",
+      "shares": 5164.9454,
+      "last_price": NaN,
+      "value": NaN
+    },
+    {
+      "ticker": "DELTA.BK",
+      "shares": 2948.7119,
+      "last_price": NaN,
+      "value": NaN
+    }
+  ],
+  "tradeCount": 143,
+  "trades": [
+    {
+      "action": "BUY",
+      "ticker": "TOP.BK",
+      "date": "2020-04-01",
+      "price": 23.21,
+      "amount": 108000.0,
+      "pct_from_52w_high": -56.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "MINT.BK",
+      "date": "2020-05-05",
+      "price": 18.17,
+      "amount": 27000.0,
+      "pct_from_52w_high": -44.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "KBANK.BK",
+      "date": "2020-06-01",
+      "price": 74.0,
+      "amount": 27000.0,
+      "pct_from_52w_high": -33.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "TOP.BK",
+      "date": "2020-07-01",
+      "price": 34.25,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 47.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "AWC.BK",
+      "date": "2020-07-01",
+      "price": 3.61,
+      "amount": 186387.09,
+      "pct_from_52w_high": -36.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "TOP.BK",
+      "date": "2020-08-03",
+      "price": 31.07,
+      "amount": 27000.0,
+      "pct_from_52w_high": -41.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "KTB.BK",
+      "date": "2020-09-01",
+      "price": 7.04,
+      "amount": 27000.0,
+      "pct_from_52w_high": -39.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "KBANK.BK",
+      "date": "2020-10-01",
+      "price": 58.86,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -20.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "BCP.BK",
+      "date": "2020-10-01",
+      "price": 11.72,
+      "amount": 48475.71,
+      "pct_from_52w_high": -47.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "EGCO.BK",
+      "date": "2020-11-02",
+      "price": 128.58,
+      "amount": 27000.0,
+      "pct_from_52w_high": -50.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "GPSC.BK",
+      "date": "2020-12-01",
+      "price": 62.01,
+      "amount": 77000.0,
+      "pct_from_52w_high": -27.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "BCP.BK",
+      "date": "2021-01-04",
+      "price": 17.23,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 47.0
+    },
+    {
+      "action": "BUY",
+      "ticker": "CRC.BK",
+      "date": "2021-01-04",
+      "price": 26.04,
+      "amount": 98268.92,
+      "pct_from_52w_high": -26.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "DELTA.BK",
+      "date": "2021-02-01",
+      "price": 47.5,
+      "amount": 27000.0,
+      "pct_from_52w_high": -34.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "MINT.BK",
+      "date": "2021-03-01",
+      "price": 27.9,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 53.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "BEM.BK",
+      "date": "2021-03-01",
+      "price": 7.16,
+      "amount": 68459.09,
+      "pct_from_52w_high": -27.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "TOP.BK",
+      "date": "2021-04-01",
+      "price": 45.64,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 46.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "DELTA.BK",
+      "date": "2021-04-01",
+      "price": 31.67,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -33.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "DELTA.BK",
+      "date": "2021-04-01",
+      "price": 31.67,
+      "amount": 84670.84,
+      "pct_from_52w_high": -56.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "BGRIM.BK",
+      "date": "2021-05-05",
+      "price": 37.76,
+      "amount": 27000.0,
+      "pct_from_52w_high": -26.6
+    },
+    {
+      "action": "SELL",
+      "ticker": "DELTA.BK",
+      "date": "2021-06-01",
+      "price": 57.47,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 81.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "RATCH.BK",
+      "date": "2021-06-01",
+      "price": 36.99,
+      "amount": 180661.91,
+      "pct_from_52w_high": -22.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "DELTA.BK",
+      "date": "2021-07-01",
+      "price": 54.73,
+      "amount": 27000.0,
+      "pct_from_52w_high": -24.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "KBANK.BK",
+      "date": "2021-08-02",
+      "price": 78.65,
+      "amount": 27000.0,
+      "pct_from_52w_high": -31.0
+    },
+    {
+      "action": "BUY",
+      "ticker": "TOP.BK",
+      "date": "2021-09-01",
+      "price": 37.12,
+      "amount": 27000.0,
+      "pct_from_52w_high": -24.0
+    },
+    {
+      "action": "BUY",
+      "ticker": "KTC.BK",
+      "date": "2021-10-01",
+      "price": 47.52,
+      "amount": 27000.0,
+      "pct_from_52w_high": -33.1
+    },
+    {
+      "action": "SELL",
+      "ticker": "DELTA.BK",
+      "date": "2021-11-01",
+      "price": 40.07,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -26.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "DELTA.BK",
+      "date": "2021-11-01",
+      "price": 40.07,
+      "amount": 46767.86,
+      "pct_from_52w_high": -46.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "SAWAD.BK",
+      "date": "2021-12-01",
+      "price": 45.04,
+      "amount": 77000.0,
+      "pct_from_52w_high": -30.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "KTB.BK",
+      "date": "2022-01-04",
+      "price": 10.24,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 45.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "CBG.BK",
+      "date": "2022-01-04",
+      "price": 109.42,
+      "amount": 71283.93,
+      "pct_from_52w_high": -22.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "KBANK.BK",
+      "date": "2022-02-01",
+      "price": 116.55,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 48.2
+    },
+    {
+      "action": "BUY",
+      "ticker": "OR.BK",
+      "date": "2022-02-01",
+      "price": 21.7,
+      "amount": 72007.04,
+      "pct_from_52w_high": -26.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "KCE.BK",
+      "date": "2022-03-01",
+      "price": 50.97,
+      "amount": 32000.0,
+      "pct_from_52w_high": -34.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "MTC.BK",
+      "date": "2022-04-01",
+      "price": 49.18,
+      "amount": 32000.0,
+      "pct_from_52w_high": -26.6
+    },
+    {
+      "action": "SELL",
+      "ticker": "BGRIM.BK",
+      "date": "2022-05-03",
+      "price": 30.1,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -20.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "BGRIM.BK",
+      "date": "2022-05-03",
+      "price": 30.1,
+      "amount": 53524.73,
+      "pct_from_52w_high": -29.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "PTTGC.BK",
+      "date": "2022-06-01",
+      "price": 44.02,
+      "amount": 32000.0,
+      "pct_from_52w_high": -25.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "AWC.BK",
+      "date": "2022-07-01",
+      "price": 4.46,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 23.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "COM7.BK",
+      "date": "2022-07-01",
+      "price": 24.92,
+      "amount": 262196.72,
+      "pct_from_52w_high": -32.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "SCGP.BK",
+      "date": "2022-08-01",
+      "price": 46.36,
+      "amount": 32000.0,
+      "pct_from_52w_high": -27.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "DELTA.BK",
+      "date": "2022-10-03",
+      "price": 60.85,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 51.8
+    },
+    {
+      "action": "SELL",
+      "ticker": "SAWAD.BK",
+      "date": "2022-10-03",
+      "price": 32.04,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -28.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "CBG.BK",
+      "date": "2022-10-03",
+      "price": 77.58,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -29.1
+    },
+    {
+      "action": "SELL",
+      "ticker": "KCE.BK",
+      "date": "2022-10-03",
+      "price": 36.43,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -28.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "MTC.BK",
+      "date": "2022-10-03",
+      "price": 33.13,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -32.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "KCE.BK",
+      "date": "2022-10-03",
+      "price": 36.43,
+      "amount": 284757.84,
+      "pct_from_52w_high": -53.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "EGCO.BK",
+      "date": "2022-11-01",
+      "price": 142.69,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 11.0
+    },
+    {
+      "action": "BUY",
+      "ticker": "MTC.BK",
+      "date": "2022-11-01",
+      "price": 35.28,
+      "amount": 61962.28,
+      "pct_from_52w_high": -41.7
+    },
+    {
+      "action": "SELL",
+      "ticker": "GPSC.BK",
+      "date": "2022-12-01",
+      "price": 64.73,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 4.4
+    },
+    {
+      "action": "SELL",
+      "ticker": "CRC.BK",
+      "date": "2022-12-01",
+      "price": 37.97,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 45.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "SAWAD.BK",
+      "date": "2022-12-01",
+      "price": 35.73,
+      "amount": 305679.84,
+      "pct_from_52w_high": -29.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMART.BK",
+      "date": "2023-01-03",
+      "price": 36.93,
+      "amount": 32000.0,
+      "pct_from_52w_high": -33.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMT.BK",
+      "date": "2023-02-01",
+      "price": 46.75,
+      "amount": 32000.0,
+      "pct_from_52w_high": -37.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "BEM.BK",
+      "date": "2023-03-01",
+      "price": 8.61,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 20.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMART.BK",
+      "date": "2023-03-01",
+      "price": 24.77,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -32.9
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMART.BK",
+      "date": "2023-03-01",
+      "price": 24.77,
+      "amount": 135780.65,
+      "pct_from_52w_high": -55.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "IVL.BK",
+      "date": "2023-04-03",
+      "price": 31.09,
+      "amount": 32000.0,
+      "pct_from_52w_high": -30.8
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMT.BK",
+      "date": "2023-05-02",
+      "price": 32.75,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -29.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMART.BK",
+      "date": "2023-05-02",
+      "price": 17.36,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -29.9
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMART.BK",
+      "date": "2023-05-02",
+      "price": 17.36,
+      "amount": 149578.66,
+      "pct_from_52w_high": -68.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "RATCH.BK",
+      "date": "2023-06-01",
+      "price": 30.53,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": -17.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "PTTGC.BK",
+      "date": "2023-06-01",
+      "price": 32.39,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -26.4
+    },
+    {
+      "action": "SELL",
+      "ticker": "SCGP.BK",
+      "date": "2023-06-01",
+      "price": 35.53,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -23.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMT.BK",
+      "date": "2023-06-01",
+      "price": 37.12,
+      "amount": 229191.34,
+      "pct_from_52w_high": -45.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2023-07-03",
+      "price": 55.91,
+      "amount": 32000.0,
+      "pct_from_52w_high": -42.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "CBG.BK",
+      "date": "2023-08-02",
+      "price": 67.09,
+      "amount": 32000.0,
+      "pct_from_52w_high": -36.6
+    },
+    {
+      "action": "SELL",
+      "ticker": "TOP.BK",
+      "date": "2023-09-01",
+      "price": 44.06,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 18.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "AWC.BK",
+      "date": "2023-09-01",
+      "price": 3.92,
+      "amount": 64043.51,
+      "pct_from_52w_high": -33.1
+    },
+    {
+      "action": "SELL",
+      "ticker": "KTC.BK",
+      "date": "2023-10-02",
+      "price": 39.11,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": -17.7
+    },
+    {
+      "action": "SELL",
+      "ticker": "OR.BK",
+      "date": "2023-10-02",
+      "price": 16.88,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -22.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "IVL.BK",
+      "date": "2023-10-02",
+      "price": 23.75,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -23.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "GPSC.BK",
+      "date": "2023-10-02",
+      "price": 41.33,
+      "amount": 134700.62,
+      "pct_from_52w_high": -40.6
+    },
+    {
+      "action": "SELL",
+      "ticker": "BGRIM.BK",
+      "date": "2023-11-01",
+      "price": 21.07,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -30.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMT.BK",
+      "date": "2023-11-01",
+      "price": 27.5,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -25.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2023-11-01",
+      "price": 42.74,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -23.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2023-11-01",
+      "price": 42.74,
+      "amount": 263713.11,
+      "pct_from_52w_high": -56.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "COM7.BK",
+      "date": "2023-12-01",
+      "price": 19.89,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -20.2
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMT.BK",
+      "date": "2023-12-01",
+      "price": 23.32,
+      "amount": 291316.36,
+      "pct_from_52w_high": -61.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "TRUE.BK",
+      "date": "2024-01-03",
+      "price": 5.07,
+      "amount": 32000.0,
+      "pct_from_52w_high": -39.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMART.BK",
+      "date": "2024-02-01",
+      "price": 13.37,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -23.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMT.BK",
+      "date": "2024-02-01",
+      "price": 17.86,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -23.4
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMT.BK",
+      "date": "2024-02-01",
+      "price": 17.86,
+      "amount": 370342.91,
+      "pct_from_52w_high": -68.0
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMART.BK",
+      "date": "2024-03-01",
+      "price": 13.09,
+      "amount": 32000.0,
+      "pct_from_52w_high": -50.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "TRUE.BK",
+      "date": "2024-04-01",
+      "price": 7.54,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 48.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "COM7.BK",
+      "date": "2024-04-01",
+      "price": 17.61,
+      "amount": 79542.86,
+      "pct_from_52w_high": -38.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2024-05-02",
+      "price": 30.25,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -29.2
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2024-05-02",
+      "price": 30.25,
+      "amount": 218647.95,
+      "pct_from_52w_high": -58.7
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMT.BK",
+      "date": "2024-06-04",
+      "price": 12.68,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -29.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMART.BK",
+      "date": "2024-06-04",
+      "price": 10.4,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -20.6
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2024-06-04",
+      "price": 22.3,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -26.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMT.BK",
+      "date": "2024-06-04",
+      "price": 12.68,
+      "amount": 481436.26,
+      "pct_from_52w_high": -70.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2024-07-01",
+      "price": 12.6,
+      "amount": 32000.0,
+      "pct_from_52w_high": -80.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2024-08-01",
+      "price": 3.82,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -69.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2024-08-01",
+      "price": 3.82,
+      "amount": 41701.59,
+      "pct_from_52w_high": -94.1
+    },
+    {
+      "action": "SELL",
+      "ticker": "AWC.BK",
+      "date": "2024-09-02",
+      "price": 3.11,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -20.7
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2024-09-02",
+      "price": 6.3,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 64.9
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2024-09-02",
+      "price": 6.3,
+      "amount": 151575.35,
+      "pct_from_52w_high": -90.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "KCE.BK",
+      "date": "2024-10-01",
+      "price": 36.86,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 1.2
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMART.BK",
+      "date": "2024-10-01",
+      "price": 15.18,
+      "amount": 320092.06,
+      "pct_from_52w_high": -31.6
+    },
+    {
+      "action": "SELL",
+      "ticker": "MTC.BK",
+      "date": "2024-11-01",
+      "price": 49.24,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 39.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "KCE.BK",
+      "date": "2024-11-01",
+      "price": 32.71,
+      "amount": 118487.63,
+      "pct_from_52w_high": -35.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "SAWAD.BK",
+      "date": "2024-12-02",
+      "price": 36.21,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 1.4
+    },
+    {
+      "action": "SELL",
+      "ticker": "KCE.BK",
+      "date": "2024-12-02",
+      "price": 23.27,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -28.9
+    },
+    {
+      "action": "BUY",
+      "ticker": "KCE.BK",
+      "date": "2024-12-02",
+      "price": 23.27,
+      "amount": 476118.1,
+      "pct_from_52w_high": -54.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2025-01-02",
+      "price": 4.08,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -35.2
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2025-01-02",
+      "price": 4.08,
+      "amount": 130163.08,
+      "pct_from_52w_high": -91.1
+    },
+    {
+      "action": "SELL",
+      "ticker": "GPSC.BK",
+      "date": "2025-02-03",
+      "price": 29.02,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -29.8
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMART.BK",
+      "date": "2025-02-03",
+      "price": 10.18,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -32.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2025-02-03",
+      "price": 2.96,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -27.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2025-02-03",
+      "price": 2.96,
+      "amount": 435714.33,
+      "pct_from_52w_high": -92.7
+    },
+    {
+      "action": "SELL",
+      "ticker": "KCE.BK",
+      "date": "2025-03-03",
+      "price": 16.59,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -28.7
+    },
+    {
+      "action": "BUY",
+      "ticker": "SCGP.BK",
+      "date": "2025-03-03",
+      "price": 12.25,
+      "amount": 371410.94,
+      "pct_from_52w_high": -62.2
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2025-04-01",
+      "price": 2.06,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -30.4
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2025-04-01",
+      "price": 2.06,
+      "amount": 335233.61,
+      "pct_from_52w_high": -94.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "KCE.BK",
+      "date": "2025-05-02",
+      "price": 16.65,
+      "amount": 32000.0,
+      "pct_from_52w_high": -60.7
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMT.BK",
+      "date": "2025-06-04",
+      "price": 8.39,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -33.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "GLOBAL.BK",
+      "date": "2025-06-04",
+      "price": 5.17,
+      "amount": 350493.3,
+      "pct_from_52w_high": -65.8
+    },
+    {
+      "action": "SELL",
+      "ticker": "CBG.BK",
+      "date": "2025-07-01",
+      "price": 49.31,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -26.5
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMART.BK",
+      "date": "2025-07-01",
+      "price": 6.19,
+      "amount": 55517.43,
+      "pct_from_52w_high": -60.8
+    },
+    {
+      "action": "BUY",
+      "ticker": "BGRIM.BK",
+      "date": "2025-08-01",
+      "price": 10.73,
+      "amount": 32000.0,
+      "pct_from_52w_high": -54.1
+    },
+    {
+      "action": "SELL",
+      "ticker": "KCE.BK",
+      "date": "2025-09-01",
+      "price": 25.07,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 50.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "KTC.BK",
+      "date": "2025-09-01",
+      "price": 25.18,
+      "amount": 80176.5,
+      "pct_from_52w_high": -47.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "SCGP.BK",
+      "date": "2025-10-01",
+      "price": 18.13,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 48.0
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2025-10-01",
+      "price": 3.34,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 62.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2025-10-01",
+      "price": 3.34,
+      "amount": 1125327.81,
+      "pct_from_52w_high": -64.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "JMT.BK",
+      "date": "2025-11-03",
+      "price": 9.37,
+      "amount": 32000.0,
+      "pct_from_52w_high": -51.4
+    },
+    {
+      "action": "SELL",
+      "ticker": "EA.BK",
+      "date": "2025-12-01",
+      "price": 2.62,
+      "reason": "CUT-LOSS (-20%, portfolio >=100k)",
+      "pct_return": -21.6
+    },
+    {
+      "action": "BUY",
+      "ticker": "EA.BK",
+      "date": "2025-12-01",
+      "price": 2.62,
+      "amount": 964742.16,
+      "pct_from_52w_high": -59.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "CRC.BK",
+      "date": "2026-01-05",
+      "price": 16.89,
+      "amount": 32000.0,
+      "pct_from_52w_high": -47.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "CBG.BK",
+      "date": "2026-02-02",
+      "price": 42.58,
+      "amount": 32000.0,
+      "pct_from_52w_high": -44.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "KCE.BK",
+      "date": "2026-03-02",
+      "price": 17.72,
+      "amount": 32000.0,
+      "pct_from_52w_high": -31.3
+    },
+    {
+      "action": "SELL",
+      "ticker": "COM7.BK",
+      "date": "2026-04-01",
+      "price": 22.6,
+      "reason": "TIME-BASED (backtest assumption)",
+      "pct_return": 28.3
+    },
+    {
+      "action": "BUY",
+      "ticker": "MTC.BK",
+      "date": "2026-04-01",
+      "price": 29.71,
+      "amount": 134071.86,
+      "pct_from_52w_high": -34.8
+    },
+    {
+      "action": "SELL",
+      "ticker": "KCE.BK",
+      "date": "2026-05-01",
+      "price": 31.25,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 76.4
+    },
+    {
+      "action": "BUY",
+      "ticker": "HMPRO.BK",
+      "date": "2026-05-01",
+      "price": 6.05,
+      "amount": 88443.56,
+      "pct_from_52w_high": -28.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "JMART.BK",
+      "date": "2026-06-01",
+      "price": 9.05,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 46.1
+    },
+    {
+      "action": "BUY",
+      "ticker": "SAWAD.BK",
+      "date": "2026-06-01",
+      "price": 21.9,
+      "amount": 113112.3,
+      "pct_from_52w_high": -28.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "BGRIM.BK",
+      "date": "2026-07-01",
+      "price": 16.9,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 57.5
+    },
+    {
+      "action": "SELL",
+      "ticker": "GLOBAL.BK",
+      "date": "2026-08-03",
+      "price": 7.6,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 46.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "KTC.BK",
+      "date": "2026-08-03",
+      "price": 38.5,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 52.9
+    },
+    {
+      "action": "SELL",
+      "ticker": "CRC.BK",
+      "date": "2026-08-03",
+      "price": 26.5,
+      "reason": "TAKE-PROFIT",
+      "pct_return": 56.9
+    },
+    {
+      "action": "BUY",
+      "ticker": "DELTA.BK",
+      "date": "2026-08-03",
+      "price": 272.0,
+      "amount": 802049.63,
+      "pct_from_52w_high": -25.3
+    }
+  ],
+  "assumptions": [
+    "ไม่รวม Quality Ratio Check (ชั้น 2) — ไม่มีข้อมูล fundamental ย้อนหลังฟรี",
+    "ไม่รวม technical timing (BOS/CHoCH) — เข้าราคาปิดวันทำการแรกของเดือนทันที",
+    "Universe เป็นหุ้นใหญ่ปัจจุบัน ~50 ตัว ไม่ใช่สมาชิก SET50 ย้อนหลังจริง (survivorship bias)",
+    "Time-based exit จำลองเป็นขายบังคับที่ 24 เดือน (แผนจริงคือทบทวนด้วยคน ไม่ auto-sell)",
+    "Cut-loss แบบขั้นบันไดใช้ขอบบนสุดของแต่ละช่วง: -12% ตอนพอร์ต<100k, -20% ตอนพอร์ต>=100k (กฎจริงเป็นช่วง -10~-12% / -15~-20% ไม่ใช่ตัวเลขเดี่ยว)"
+  ]
+}
