@@ -1,0 +1,12 @@
+{
+  "_disclaimer": "รายชื่อนี้คือหุ้นไทยขนาดใหญ่ ~50 ตัวที่ 'ปัจจุบัน' อยู่ในกลุ่ม SET50/blue-chip ไม่ใช่รายชื่อสมาชิก SET50 ย้อนหลังแบบ point-in-time ตั้งแต่ปี 2020 จริง (ตลท. ปรับรายชื่อทุกครึ่งปี) ดังนั้น backtest นี้มี survivorship bias ในระดับหนึ่ง — หุ้นที่เคยใหญ่แล้วร่วงจน หลุดกลุ่มไปเลยจะไม่ถูกนับ ทำให้ผลตอบแทนอาจดูดีกว่าความเป็นจริง ถ้าต้องการความแม่นยำระดับสถาบัน ต้องซื้อข้อมูล historical constituent จาก SETSMART",
+  "tickers": [
+    "ADVANC.BK","AOT.BK","AWC.BK","BANPU.BK","BBL.BK","BCP.BK","BDMS.BK","BEM.BK",
+    "BGRIM.BK","BH.BK","CBG.BK","CENTEL.BK","COM7.BK","CPALL.BK","CPF.BK","CPN.BK",
+    "CRC.BK","DELTA.BK","EA.BK","EGCO.BK","GLOBAL.BK","GPSC.BK","GULF.BK","HMPRO.BK",
+    "INTUCH.BK","IVL.BK","JMART.BK","JMT.BK","KBANK.BK","KCE.BK","KTB.BK","KTC.BK",
+    "LH.BK","MINT.BK","MTC.BK","OR.BK","OSP.BK","PTT.BK","PTTEP.BK","PTTGC.BK",
+    "RATCH.BK","SAWAD.BK","SCB.BK","SCC.BK","SCGP.BK","TIDLOR.BK","TISCO.BK","TOP.BK",
+    "TRUE.BK","TU.BK","WHA.BK"
+  ]
+}
