@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T23:59:25.531957Z",
+  "generatedAt": "2026-10-22T00:04:13.414111Z",
   "stocks": [
     {
       "id": "PTT",
@@ -10,9 +10,9 @@
       "sector": "Energy",
       "inPortfolio": true,
       "price": 40.75,
-      "changePct": -0.61,
+      "changePct": 0.0,
       "pctFrom52wHigh": -3.61,
-      "score": 15,
+      "score": 13,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 3,
@@ -21,7 +21,7 @@
           "กลุ่ม cyclical: ผ่อน Gross Margin เหลือ >28%"
         ]
       },
-      "reason": "ราคา -0.61% จากปิดก่อนหน้า, ห่างจาก 52w high -3.61% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +0.0% จากปิดก่อนหน้า, ห่างจาก 52w high -3.61% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 36.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -40,10 +40,10 @@
       "currency": "฿",
       "sector": "Transport",
       "inPortfolio": true,
-      "price": 57.25,
-      "changePct": -1.29,
-      "pctFrom52wHigh": -14.87,
-      "score": 27,
+      "price": 58.25,
+      "changePct": 1.75,
+      "pctFrom52wHigh": -13.38,
+      "score": 28,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
@@ -52,7 +52,7 @@
           "กลุ่ม cyclical: ผ่อน Gross Margin เหลือ >28%"
         ]
       },
-      "reason": "ราคา -1.29% จากปิดก่อนหน้า, ห่างจาก 52w high -14.87% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +1.75% จากปิดก่อนหน้า, ห่างจาก 52w high -13.38% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 58.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -71,9 +71,9 @@
       "currency": "฿",
       "sector": "Technology",
       "inPortfolio": true,
-      "price": 245.0,
-      "changePct": -2.78,
-      "pctFrom52wHigh": -34.14,
+      "price": 239.0,
+      "changePct": -2.45,
+      "pctFrom52wHigh": -35.75,
       "score": 48,
       "fundamentalPass": true,
       "qualityCheck": {
@@ -81,7 +81,7 @@
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา -2.78% จากปิดก่อนหน้า, ห่างจาก 52w high -34.14% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา -2.45% จากปิดก่อนหน้า, ห่างจาก 52w high -35.75% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 58.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -89,7 +89,7 @@
       "classification": {
         "status": "SELL_NOW",
         "rule": "TAKE-PROFIT",
-        "detail": "วิ่ง +322% จากราคาเข้า เข้าเป้าหมายกำไร"
+        "detail": "วิ่ง +312% จากราคาเข้า เข้าเป้าหมายกำไร"
       }
     },
     {
@@ -101,16 +101,16 @@
       "sector": "Consumer",
       "inPortfolio": true,
       "price": 43.75,
-      "changePct": 0.57,
+      "changePct": 0.0,
       "pctFrom52wHigh": -16.7,
-      "score": 26,
+      "score": 23,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา +0.57% จากปิดก่อนหน้า, ห่างจาก 52w high -16.7% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +0.0% จากปิดก่อนหน้า, ห่างจาก 52w high -16.7% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 66.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -122,113 +122,6 @@
       }
     },
     {
-      "id": "NVDA",
-      "symbol": "NVDA",
-      "name": "NVIDIA Corp",
-      "market": "US",
-      "currency": "$",
-      "sector": "Technology",
-      "inPortfolio": true,
-      "price": 216.47,
-      "changePct": -0.29,
-      "pctFrom52wHigh": -11.05,
-      "score": 20,
-      "fundamentalPass": true,
-      "qualityCheck": {
-        "passed": 3,
-        "evaluated": 5,
-        "notes": []
-      },
-      "reason": "ราคา -0.29% จากปิดก่อนหน้า, ห่างจาก 52w high -11.05% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "entryPrice": 140.0,
-      "technicalState": "intact",
-      "thesisState": "intact",
-      "reviewFlag": false,
-      "classification": {
-        "status": "SELL_NOW",
-        "rule": "TAKE-PROFIT",
-        "detail": "วิ่ง +55% จากราคาเข้า เข้าเป้าหมายกำไร"
-      }
-    },
-    {
-      "id": "MU",
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "market": "US",
-      "currency": "$",
-      "sector": "Semiconductor",
-      "inPortfolio": false,
-      "price": 896.07,
-      "changePct": -0.98,
-      "pctFrom52wHigh": -28.58,
-      "score": 27,
-      "fundamentalPass": true,
-      "qualityCheck": {
-        "passed": 4,
-        "evaluated": 5,
-        "notes": []
-      },
-      "reason": "ราคา -0.98% จากปิดก่อนหน้า, ห่างจาก 52w high -28.58% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "technicalState": "retest_confirmed",
-      "classification": {
-        "status": "BUY_NOW",
-        "rule": "BUY TRIGGER ครบ",
-        "detail": "ผ่าน fundamental + technical ยืนยันแล้ว"
-      }
-    },
-    {
-      "id": "PYPL",
-      "symbol": "PYPL",
-      "name": "PayPal Holdings",
-      "market": "US",
-      "currency": "$",
-      "sector": "Fintech",
-      "inPortfolio": false,
-      "price": 57.14,
-      "changePct": 1.11,
-      "pctFrom52wHigh": -27.06,
-      "score": 26,
-      "fundamentalPass": true,
-      "qualityCheck": {
-        "passed": 3,
-        "evaluated": 5,
-        "notes": []
-      },
-      "reason": "ราคา +1.11% จากปิดก่อนหน้า, ห่างจาก 52w high -27.06% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "technicalState": "none",
-      "classification": {
-        "status": "HOLD",
-        "rule": "—",
-        "detail": "ยังไม่เข้าเงื่อนไขใดๆ"
-      }
-    },
-    {
-      "id": "INTC",
-      "symbol": "INTC",
-      "name": "Intel Corp",
-      "market": "US",
-      "currency": "$",
-      "sector": "Semiconductor",
-      "inPortfolio": false,
-      "price": 91.69,
-      "changePct": -0.37,
-      "pctFrom52wHigh": -35.59,
-      "score": 30,
-      "fundamentalPass": false,
-      "qualityCheck": {
-        "passed": 1,
-        "evaluated": 4,
-        "notes": []
-      },
-      "reason": "ราคา -0.37% จากปิดก่อนหน้า, ห่างจาก 52w high -35.59% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "technicalState": "none",
-      "classification": {
-        "status": "HOLD",
-        "rule": "—",
-        "detail": "ยังไม่เข้าเงื่อนไขใดๆ"
-      }
-    },
-    {
       "id": "BDMS",
       "symbol": "BDMS",
       "name": "Bangkok Dusit Medical",
@@ -236,17 +129,17 @@
       "currency": "฿",
       "sector": "Healthcare",
       "inPortfolio": false,
-      "price": 19.2,
-      "changePct": 0.52,
-      "pctFrom52wHigh": -9.73,
-      "score": 10,
+      "price": 19.5,
+      "changePct": 1.56,
+      "pctFrom52wHigh": -8.32,
+      "score": 13,
       "fundamentalPass": false,
       "qualityCheck": {
-        "passed": 1,
+        "passed": 0,
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา +0.52% จากปิดก่อนหน้า, ห่างจาก 52w high -9.73% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +1.56% จากปิดก่อนหน้า, ห่างจาก 52w high -8.32% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "technicalState": "none",
       "classification": {
         "status": "HOLD",
@@ -262,10 +155,10 @@
       "currency": "฿",
       "sector": "Financials",
       "inPortfolio": false,
-      "price": 146.0,
-      "changePct": -0.68,
-      "pctFrom52wHigh": -7.59,
-      "score": 9,
+      "price": 147.0,
+      "changePct": 0.68,
+      "pctFrom52wHigh": -6.96,
+      "score": 8,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
@@ -274,64 +167,12 @@
           "กลุ่ม Financials: ข้าม Gross Margin ตามกฎข้อ 3.2"
         ]
       },
-      "reason": "ราคา -0.68% จากปิดก่อนหน้า, ห่างจาก 52w high -7.59% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +0.68% จากปิดก่อนหน้า, ห่างจาก 52w high -6.96% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "technicalState": "none",
       "classification": {
         "status": "HOLD",
         "rule": "—",
         "detail": "ยังไม่เข้าเงื่อนไขใดๆ"
-      }
-    },
-    {
-      "id": "TSLA",
-      "symbol": "TSLA",
-      "name": "Tesla Inc",
-      "market": "US",
-      "currency": "$",
-      "sector": "Automotive",
-      "inPortfolio": false,
-      "price": 373.71,
-      "changePct": 1.54,
-      "pctFrom52wHigh": -25.08,
-      "score": 26,
-      "fundamentalPass": false,
-      "qualityCheck": {
-        "passed": 0,
-        "evaluated": 5,
-        "notes": []
-      },
-      "reason": "ราคา +1.54% จากปิดก่อนหน้า, ห่างจาก 52w high -25.08% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "technicalState": "none",
-      "classification": {
-        "status": "HOLD",
-        "rule": "—",
-        "detail": "ยังไม่เข้าเงื่อนไขใดๆ"
-      }
-    },
-    {
-      "id": "BABA",
-      "symbol": "BABA",
-      "name": "Alibaba Group",
-      "market": "US",
-      "currency": "$",
-      "sector": "E-commerce",
-      "inPortfolio": false,
-      "price": 108.61,
-      "changePct": 0.04,
-      "pctFrom52wHigh": -39.94,
-      "score": 32,
-      "fundamentalPass": true,
-      "qualityCheck": {
-        "passed": 2,
-        "evaluated": 5,
-        "notes": []
-      },
-      "reason": "ราคา +0.04% จากปิดก่อนหน้า, ห่างจาก 52w high -39.94% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "technicalState": "awaiting_retest",
-      "classification": {
-        "status": "WATCHING",
-        "rule": "รอ TECHNICAL TRIGGER",
-        "detail": "fundamental ผ่านแล้ว รอจังหวะ retest/BOS"
       }
     },
     {
@@ -342,43 +183,17 @@
       "currency": "฿",
       "sector": "Telecom",
       "inPortfolio": false,
-      "price": 332.0,
-      "changePct": -0.6,
-      "pctFrom52wHigh": -12.16,
-      "score": 12,
+      "price": 335.0,
+      "changePct": 0.9,
+      "pctFrom52wHigh": -11.37,
+      "score": 13,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา -0.6% จากปิดก่อนหน้า, ห่างจาก 52w high -12.16% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
-      "technicalState": "none",
-      "classification": {
-        "status": "HOLD",
-        "rule": "—",
-        "detail": "ยังไม่เข้าเงื่อนไขใดๆ"
-      }
-    },
-    {
-      "id": "META",
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "market": "US",
-      "currency": "$",
-      "sector": "Technology",
-      "inPortfolio": false,
-      "price": 694.25,
-      "changePct": -1.59,
-      "pctFrom52wHigh": -10.97,
-      "score": 15,
-      "fundamentalPass": true,
-      "qualityCheck": {
-        "passed": 3,
-        "evaluated": 5,
-        "notes": []
-      },
-      "reason": "ราคา -1.59% จากปิดก่อนหน้า, ห่างจาก 52w high -10.97% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +0.9% จากปิดก่อนหน้า, ห่างจาก 52w high -11.37% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "technicalState": "none",
       "classification": {
         "status": "HOLD",
