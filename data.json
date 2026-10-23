@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:04:13.414111Z",
+  "generatedAt": "2026-10-23T00:02:57.091014Z",
   "stocks": [
     {
       "id": "PTT",
@@ -9,10 +9,10 @@
       "currency": "฿",
       "sector": "Energy",
       "inPortfolio": true,
-      "price": 40.75,
-      "changePct": 0.0,
-      "pctFrom52wHigh": -3.61,
-      "score": 13,
+      "price": 41.5,
+      "changePct": 1.84,
+      "pctFrom52wHigh": -1.83,
+      "score": 19,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 3,
@@ -21,7 +21,7 @@
           "กลุ่ม cyclical: ผ่อน Gross Margin เหลือ >28%"
         ]
       },
-      "reason": "ราคา +0.0% จากปิดก่อนหน้า, ห่างจาก 52w high -3.61% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +1.84% จากปิดก่อนหน้า, ห่างจาก 52w high -1.83% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 36.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -40,10 +40,10 @@
       "currency": "฿",
       "sector": "Transport",
       "inPortfolio": true,
-      "price": 58.25,
-      "changePct": 1.75,
-      "pctFrom52wHigh": -13.38,
-      "score": 28,
+      "price": 59.75,
+      "changePct": 2.58,
+      "pctFrom52wHigh": -11.15,
+      "score": 29,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
@@ -52,7 +52,7 @@
           "กลุ่ม cyclical: ผ่อน Gross Margin เหลือ >28%"
         ]
       },
-      "reason": "ราคา +1.75% จากปิดก่อนหน้า, ห่างจาก 52w high -13.38% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +2.58% จากปิดก่อนหน้า, ห่างจาก 52w high -11.15% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 58.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -71,9 +71,9 @@
       "currency": "฿",
       "sector": "Technology",
       "inPortfolio": true,
-      "price": 239.0,
-      "changePct": -2.45,
-      "pctFrom52wHigh": -35.75,
+      "price": 234.0,
+      "changePct": -2.09,
+      "pctFrom52wHigh": -37.1,
       "score": 48,
       "fundamentalPass": true,
       "qualityCheck": {
@@ -81,7 +81,7 @@
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา -2.45% จากปิดก่อนหน้า, ห่างจาก 52w high -35.75% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา -2.09% จากปิดก่อนหน้า, ห่างจาก 52w high -37.1% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 58.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -89,7 +89,7 @@
       "classification": {
         "status": "SELL_NOW",
         "rule": "TAKE-PROFIT",
-        "detail": "วิ่ง +312% จากราคาเข้า เข้าเป้าหมายกำไร"
+        "detail": "วิ่ง +303% จากราคาเข้า เข้าเป้าหมายกำไร"
       }
     },
     {
@@ -100,17 +100,17 @@
       "currency": "฿",
       "sector": "Consumer",
       "inPortfolio": true,
-      "price": 43.75,
-      "changePct": 0.0,
-      "pctFrom52wHigh": -16.7,
-      "score": 23,
+      "price": 44.0,
+      "changePct": 0.57,
+      "pctFrom52wHigh": -16.23,
+      "score": 25,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา +0.0% จากปิดก่อนหน้า, ห่างจาก 52w high -16.7% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +0.57% จากปิดก่อนหน้า, ห่างจาก 52w high -16.23% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "entryPrice": 66.0,
       "technicalState": "intact",
       "thesisState": "intact",
@@ -118,7 +118,7 @@
       "classification": {
         "status": "SELL_NOW",
         "rule": "CUT-LOSS",
-        "detail": "หลุด -12% จากราคาเข้า (-33.7%) — hard rule ไม่มีข้อยกเว้น"
+        "detail": "หลุด -12% จากราคาเข้า (-33.3%) — hard rule ไม่มีข้อยกเว้น"
       }
     },
     {
@@ -129,17 +129,17 @@
       "currency": "฿",
       "sector": "Healthcare",
       "inPortfolio": false,
-      "price": 19.5,
-      "changePct": 1.56,
-      "pctFrom52wHigh": -8.32,
-      "score": 13,
+      "price": 19.4,
+      "changePct": -0.51,
+      "pctFrom52wHigh": -8.79,
+      "score": 9,
       "fundamentalPass": false,
       "qualityCheck": {
         "passed": 0,
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา +1.56% จากปิดก่อนหน้า, ห่างจาก 52w high -8.32% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา -0.51% จากปิดก่อนหน้า, ห่างจาก 52w high -8.79% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "technicalState": "none",
       "classification": {
         "status": "HOLD",
@@ -155,10 +155,10 @@
       "currency": "฿",
       "sector": "Financials",
       "inPortfolio": false,
-      "price": 147.0,
-      "changePct": 0.68,
-      "pctFrom52wHigh": -6.96,
-      "score": 8,
+      "price": 151.5,
+      "changePct": 3.06,
+      "pctFrom52wHigh": -4.11,
+      "score": 16,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
@@ -167,7 +167,7 @@
           "กลุ่ม Financials: ข้าม Gross Margin ตามกฎข้อ 3.2"
         ]
       },
-      "reason": "ราคา +0.68% จากปิดก่อนหน้า, ห่างจาก 52w high -6.96% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +3.06% จากปิดก่อนหน้า, ห่างจาก 52w high -4.11% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "technicalState": "none",
       "classification": {
         "status": "HOLD",
@@ -183,17 +183,17 @@
       "currency": "฿",
       "sector": "Telecom",
       "inPortfolio": false,
-      "price": 335.0,
-      "changePct": 0.9,
-      "pctFrom52wHigh": -11.37,
-      "score": 13,
+      "price": 336.0,
+      "changePct": 0.3,
+      "pctFrom52wHigh": -11.1,
+      "score": 10,
       "fundamentalPass": true,
       "qualityCheck": {
         "passed": 2,
         "evaluated": 5,
         "notes": []
       },
-      "reason": "ราคา +0.9% จากปิดก่อนหน้า, ห่างจาก 52w high -11.37% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
+      "reason": "ราคา +0.3% จากปิดก่อนหน้า, ห่างจาก 52w high -11.1% (ยังไม่ต่อ News API — เป็นสรุปจากตัวเลขราคาเท่านั้น)",
       "technicalState": "none",
       "classification": {
         "status": "HOLD",
